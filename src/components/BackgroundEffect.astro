@@ -1,10 +1,10 @@
 <div id="bg-grid" aria-hidden="true">
-	{new Array(25).fill(<div />)}
+	{new Array(49).fill(<div />)}
 </div>
 
 <script lang="javascript">
 	const grid = document.getElementById("bg-grid");
-	const [rows, columns] = [5, 5];
+	const [rows, columns] = [7, 7];
 
 	let lastHovered = -1;
 	let mouseDown = false;
@@ -96,16 +96,16 @@
 		z-index: -2;
 		pointer-events: none;
 		filter: blur(10px);
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(7, 1fr);
 		transform: scale(1.05);
 	}
 
 	#bg-grid div {
-		background: #ade8f4;
+		background: var(--div-color);
 		transition: 800ms background linear;
 
 		&.hovered {
-			background: #caf0f8;
+			background: var(--background-color);
 		}
 
 		&.hovered-fast-trans {
