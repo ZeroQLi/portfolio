@@ -7,28 +7,29 @@
 :root {
 	--width: 720px;
 	--min-height: 100vh;
-	--font-main: Verdana, sans-serif;
+	--font-main: "Outfit Variable", Verdana, sans-serif;
 	--font-secondary: Verdana, sans-serif;
 	--font-scale: 1em;
-	--background-color: #fffcf5;
-	--div-color: #a3ffe8;
-	--heading-color: #222;
-	--text-color: #444;
-	--link-color: #0062ff;
-	--visited-color: #8b6fcb;
-	--code-background-color: #eee;
-	--code-color: #222;
-	--blockquote-color: #222;
-	--sun-color: #f5e0a2;
-	--moon-color: #424f56;
-	--code-border-color: #ddd;
+	--background-color: #fdf6e3;
+	--div-color: #eee8d5;
+	--heading-color: #657b83;
+	--text-color: #586e75;
+	--link-color: #268bd2;
+	--visited-color: #6c71c4;
+	--code-background-color: #eee8d5;
+	--code-color: #657b83;
+	--blockquote-color: #93a1a1;
+	--sun-color: #b58900;
+	--moon-color: #839496;
+	--code-border-color: #93a1a1;
+	--line-color: #93a1a1;
 }
 
 :root[data-theme="dark"] {
-	--background-color: #99e8e0;
-	--div-color: #83c5be;
-	--heading-color: greenyellow;
-	--text-color: #fff;
+	--background-color: #6160a6;
+	--div-color: #282d60;
+	--heading-color: #f1a0d2;
+	--text-color: #8faaff;
 	--link-color: #64ccff;
 	--visited-color: #8b6fcb;
 	--code-background-color: #000;

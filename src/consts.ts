@@ -11,10 +11,8 @@ export const ICP_NUMBER = "";
 export const SOCIAL_LINKS = {
   Github: "https://github.com/ZeroQLi",
   Twitter: "https://twitter.com/ZeroQLi",
-  LinkedIn: "https://www.linkedin.com/in/yourusername",
+LinkedIn: "https://www.linkedin.com/in/mohammed-eshan/",
   Instagram: "https://www.instagram.com/zer0ql",
-  //   Facebook: "https://www.facebook.com/yourusername",
-  //   YouTube: "https://www.youtube.com/yourusername",
 };
 
 // SEO 相关
