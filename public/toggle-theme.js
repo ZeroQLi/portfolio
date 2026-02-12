@@ -49,6 +49,11 @@ function reflectPreference() {
 // set early so no page flashes / CSS is made aware
 reflectPreference();
 
+// Set theme on the incoming document before swap so there's no flash
+document.addEventListener("astro:before-swap", (event) => {
+  event.newDocument.firstElementChild.setAttribute("data-theme", themeValue);
+});
+
 window.onload = () => {
   function setThemeFeature() {
     // set on load so screen readers can get the latest value on the button
