@@ -9,12 +9,11 @@ export const ICP_NUMBER = "";
 export const SOCIAL_LINKS = {
   Github: "https://github.com/ZeroQLi",
   Twitter: "https://twitter.com/ZeroQLi",
-LinkedIn: "https://www.linkedin.com/in/mohammed-eshan/",
-  Instagram: "https://www.instagram.com/zer0ql",
+  LinkedIn: "https://www.linkedin.com/in/mohammed-eshan/",
 };
 
 export const SEO_CONFIG = {
-  ogImage: "/hero-img.png",
+  ogImage: "/whispher.gif",
   keywords: "blog, tech, programming",
 };
 
@@ -28,10 +27,10 @@ export const NAV_ITEMS = [
 export const BLOG_CONFIG = {
   locale: "en-us",
   profile: "https://github.com/ZeroQLi",
-  authorName: "Author Name",
+  authorName: "Mohammed Eshan",
   email: "mailto:meshan717@gmail.com",
   tags: {
     title: "Tags",
-    description: "All the tags used in posts.",
+    description: "All the tags used in my blog posts.",
   },
 };
